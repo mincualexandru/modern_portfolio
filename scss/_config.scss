@@ -18,8 +18,7 @@ $background-opacity: 0.9;
             //dupa setarea proprietatiilor #bg-img facem urmatoarele modificari
             &:after {
                 content: '';
-                // absolute pentru a acoperi tot body-ul
-                position: absolute;
+                position: fixed;
                 top: 0;
                 right: 0;
                 left: 0;
