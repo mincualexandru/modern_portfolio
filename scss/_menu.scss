@@ -96,6 +96,7 @@
     }
 
     .nav-item {
+        // -> pozitia de la centru este translate3d(0,0,0) si noi setam translate-ul cu 600px in dreapta
         transform: translate3d(600px, 0, 0);
         @include easeOut;
 
