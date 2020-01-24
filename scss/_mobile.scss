@@ -1,11 +1,19 @@
 // Widescreens
 @include mediaXl {
 
+    .projects {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
 }
 
 // Desktops & Laptops
 @include mediaLg {
     
+    .projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 
@@ -62,6 +70,10 @@
             'job3';
         grid-template-columns: 1fr;
     }
+
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
@@ -79,5 +91,9 @@
         h2 {
             font-size: 15px;
         }
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
     }
 }
